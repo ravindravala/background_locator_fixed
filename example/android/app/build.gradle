@@ -26,7 +26,9 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace = "yukams.app.background_locator_example"
     compileSdkVersion 31
+    
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
